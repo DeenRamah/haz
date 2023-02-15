@@ -1,0 +1,43 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body,html
+{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    min-height: 100vh;
+    position: relative;
+    background-color: rgb(75, 73, 73);
+}
+.container
+{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display:inline-block;
+    margin-top: 20px;
+    transform: translateY(0%);    
+}
+.container img
+{
+    border-radius: 20px;
+}
+.mkuu
+{
+    position: absolute;
+    margin: 20px 20px 20px 20px;
+    transform: translateX(-1%);
+    transform: translateY(25%);
+    padding: 40px;
+    border-radius: 20px;
+}
+.mkuu img
+{
+    border-radius: 16px;
+    width: 690px;
+}
